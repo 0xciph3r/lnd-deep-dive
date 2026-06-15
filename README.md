@@ -2,7 +2,7 @@
 
 **A Security Engineer's Guide to the Lightning Network Daemon**
 
-🌐 **[Read the Guide →](https://nonsoamadi10.github.io/lnd-deep-dive/)**
+🌐 **[Read the Guide →](https://0xciph3r.github.io/lnd-deep-dive/)**
 
 ---
 
@@ -12,26 +12,26 @@ This is a comprehensive, beginner-friendly guide that maps every concept from [*
 
 | # | Chapter | Key Package | Security Finding |
 |---|---------|------------|-----------------|
-| 1 | [Node Architecture & Startup](https://nonsoamadi10.github.io/lnd-deep-dive/#/01-node-architecture) | `lnd.go`, `server.go` | Macaroon file perms hardcoded |
-| 2 | [Brontide Encrypted Transport](https://nonsoamadi10.github.io/lnd-deep-dive/#/02-brontide-transport) | `brontide/` | Secret key not memory-locked |
-| 3 | [Key Management & Wallet](https://nonsoamadi10.github.io/lnd-deep-dive/#/03-key-management) | `aezeed/`, `keychain/` | Default passphrase "aezeed" |
-| 4 | [Channels & Commitments](https://nonsoamadi10.github.io/lnd-deep-dive/#/04-channels-commitments) | `lnwallet/`, `funding/` | Breach arbitrator timing |
-| 5 | [HTLCs, Routing & the Switch](https://nonsoamadi10.github.io/lnd-deep-dive/#/05-htlc-switch-routing) | `htlcswitch/`, `routing/` | Dust fee exposure |
-| 6 | [Watchtowers](https://nonsoamadi10.github.io/lnd-deep-dive/#/06-watchtowers) | `watchtower/` | No justice tx rebroadcast |
-| 7 | [Channel Backups](https://nonsoamadi10.github.io/lnd-deep-dive/#/07-channel-backups) | `chanbackup/` | Stale backup force-close |
-| 8 | [Macaroons & RPC](https://nonsoamadi10.github.io/lnd-deep-dive/#/08-macaroons-rpc) | `macaroons/`, `rpcperms/` | Fail-closed middleware |
-| 9 | [Gossip & Discovery](https://nonsoamadi10.github.io/lnd-deep-dive/#/09-gossip-discovery) | `discovery/` | In-memory-only bans |
-| 10 | [Tor & IP Privacy](https://nonsoamadi10.github.io/lnd-deep-dive/#/10-tor-privacy) | `tor/` | NULL auth fallback |
+| 1 | [Node Architecture & Startup](https://0xciph3r.github.io/lnd-deep-dive/#/01-node-architecture) | `lnd.go`, `server.go` | Macaroon file perms hardcoded |
+| 2 | [Brontide Encrypted Transport](https://0xciph3r.github.io/lnd-deep-dive/#/02-brontide-transport) | `brontide/` | Secret key not memory-locked |
+| 3 | [Key Management & Wallet](https://0xciph3r.github.io/lnd-deep-dive/#/03-key-management) | `aezeed/`, `keychain/` | Default passphrase "aezeed" |
+| 4 | [Channels & Commitments](https://0xciph3r.github.io/lnd-deep-dive/#/04-channels-commitments) | `lnwallet/`, `funding/` | Breach arbitrator timing |
+| 5 | [HTLCs, Routing & the Switch](https://0xciph3r.github.io/lnd-deep-dive/#/05-htlc-switch-routing) | `htlcswitch/`, `routing/` | Dust fee exposure |
+| 6 | [Watchtowers](https://0xciph3r.github.io/lnd-deep-dive/#/06-watchtowers) | `watchtower/` | No justice tx rebroadcast |
+| 7 | [Channel Backups](https://0xciph3r.github.io/lnd-deep-dive/#/07-channel-backups) | `chanbackup/` | Stale backup force-close |
+| 8 | [Macaroons & RPC](https://0xciph3r.github.io/lnd-deep-dive/#/08-macaroons-rpc) | `macaroons/`, `rpcperms/` | Fail-closed middleware |
+| 9 | [Gossip & Discovery](https://0xciph3r.github.io/lnd-deep-dive/#/09-gossip-discovery) | `discovery/` | In-memory-only bans |
+| 10 | [Tor & IP Privacy](https://0xciph3r.github.io/lnd-deep-dive/#/10-tor-privacy) | `tor/` | NULL auth fallback |
 
 ## 🔐 Security Findings
 
 **18 findings** across the LND codebase, ranging from Critical to Informational:
 
-- [Full Security Report →](https://nonsoamadi10.github.io/lnd-deep-dive/#/11-security-findings)
+- [Full Security Report →](https://0xciph3r.github.io/lnd-deep-dive/#/11-security-findings)
 
 ## 📖 Additional Resources
 
-- [Glossary (55+ terms)](https://nonsoamadi10.github.io/lnd-deep-dive/#/12-glossary)
+- [Glossary (55+ terms)](https://0xciph3r.github.io/lnd-deep-dive/#/12-glossary)
 
 
 ## How to Use
@@ -54,4 +54,4 @@ MIT
 
 ---
 
-*Built by [Chinonso Amadi](https://github.com/NonsoAmadi10) — Crypto Infrastructure Security Engineer*
+*Built by [cipher](https://github.com/0xciph3r) — Crypto Infrastructure Security Engineer*

@@ -11,4 +11,4 @@
 
 [Get Started](00-README.md)
 [Security Findings](11-security-findings.md)
-[GitHub](https://github.com/NonsoAmadi10/lnd-deep-dive)
+[GitHub](https://github.com/0xciph3r/lnd-deep-dive)
